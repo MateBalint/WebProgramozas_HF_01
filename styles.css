@@ -1,28 +1,90 @@
-#navbar {
-  display: flex;
-  justify-content: center;
+/* Built-in selectors */
+
+html {
+  height: 100%;
+  width: 100%;
+  font-size: 0;
 }
 
-.navbar-button {
-  padding-left: 5px;
-  padding-right: 5px;
-  border: 1px solid black;
-  border-radius: 3px;
-}
+/* Custom selectors */
 
-.main-title {
-  font-weight: bold;
-  font-size: 25px;
+.chess-board {
+  background-color: black;
   text-align: center;
 }
 
+.rotate {
+  transform: rotate(180deg);
+}
 
+.border-text {
+  color: white;
+}
 
+.inner-board,
+.chess-board {
+  border: 8px solid grey;
+  display: inline-block;
+}
 
+.dark {
+  background-color: black;
+}
 
+.light {
+  background-color: white;
+}
 
+.dark,
+.light,
+.default-row {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 40px;
+  vertical-align: middle;
+  line-height: 60px;
+}
 
+.white-queen,
+.white-pawn,
+.white-rook,
+.white-bishop,
+.white-knight {
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
 
+.white-outline {
+  text-shadow: -0.5px -0.5px 0 white, 0.5px -0.5px 0 white, -0.5px 0.5px 0 white, 0.5px 0.5px 0 white;
+}
 
+.border-number {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  vertical-align: text-bottom;
+  font-size: 30px;
+  line-height: 60px;
+  color: white;
+}
 
+.border-letter {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 30px;
+  line-height: 60px;
+  color: white;
+}
 
+.left-border {
+  float: left;
+}
+
+.right-border {
+  float: right;
+}
