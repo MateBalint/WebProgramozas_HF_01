@@ -1,0 +1,21 @@
+.rows {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  height: 50px;
+}
+
+.rows > div {
+  height: 50px;
+  width: 70px;
+  text-align: center;
+}
+
+.non-december-days {
+  color: red;
+  background-color: grey;
+}
+
+.days {
+  font-weight: bold;
+}
