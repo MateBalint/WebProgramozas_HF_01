@@ -80,3 +80,8 @@
 .right-border {
   float: right;
 }
+
+.back-button {
+  margin-top: 30px;
+  font-weight: bold;
+}

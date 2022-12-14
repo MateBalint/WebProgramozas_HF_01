@@ -1,8 +1,9 @@
 .rows {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   border: 1px solid black;
   height: 50px;
+  width: 490px;
 }
 
 .rows > div {
@@ -18,4 +19,14 @@
 
 .days {
   font-weight: bold;
+  background-color: aquamarine;
+}
+
+.back-button {
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.weekend {
+  background-color: rgb(218, 122, 218);
 }
