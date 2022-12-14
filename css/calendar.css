@@ -19,7 +19,7 @@
 
 .days {
   font-weight: bold;
-  background-color: aquamarine;
+  background-color: rgb(125, 179, 241);
 }
 
 .back-button {
@@ -29,4 +29,14 @@
 
 .weekend {
   background-color: rgb(218, 122, 218);
+}
+
+#month {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.border {
+    border-right: 1px solid black;
 }
