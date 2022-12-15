@@ -1,6 +1,6 @@
 .rows {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   border: 1px solid black;
   height: 50px;
   width: 490px;
@@ -32,11 +32,11 @@
 }
 
 #month {
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: underline;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .border {
-    border-right: 1px solid black;
+  border-right: 1px solid black;
 }

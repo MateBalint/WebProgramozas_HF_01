@@ -1,0 +1,26 @@
+.back-button {
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.text-highlight {
+    font-weight: bold;
+}
+
+.highlighted-text {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.bigger-highlighted-text {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+body {
+  background-color: rgb(204, 226, 247);
+}
+
+img {
+    border-radius: 50%;
+}
